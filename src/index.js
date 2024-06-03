@@ -1,10 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { App } from 'components/App';
-import './index.css';
+import React from 'react'; // Importuje bibliotekę React
+import ReactDOM from 'react-dom'; // Importuje ReactDOM do renderowania komponentów
+import './index.css'; // Importuje globalne style
+import App from './App'; // Importuje komponent App z poprawną ścieżką
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );

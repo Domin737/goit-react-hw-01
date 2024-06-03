@@ -1,0 +1,61 @@
+.profile {
+  max-width: 280px; /* Maksymalna szerokość kontenera */
+  margin: 40px auto; /* Wyśrodkowanie kontenera i dodanie górnego marginesu */
+  padding: 20px; /* Wewnętrzny odstęp kontenera */
+  background-color: #fff; /* Kolor tła kontenera */
+  border-radius: 10px; /* Zaokrąglenie rogów kontenera */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cień kontenera */
+  text-align: center; /* Wyśrodkowanie tekstu */
+}
+
+.description {
+  margin-bottom: 20px; /* Dolny margines opisu */
+}
+
+.avatar {
+  width: 120px; /* Szerokość awatara */
+  height: 120px; /* Wysokość awatara */
+  border-radius: 50%; /* Zaokrąglenie awatara (okrągły kształt) */
+  margin-bottom: 10px; /* Dolny margines awatara */
+}
+
+.name {
+  font-size: 22px; /* Wielkość czcionki dla nazwy */
+  font-weight: 700; /* Pogrubienie tekstu */
+  margin-bottom: 5px; /* Dolny margines nazwy */
+}
+
+.tag,
+.location {
+  font-size: 14px; /* Wielkość czcionki dla tagu i lokalizacji */
+  color: #888; /* Kolor tekstu dla tagu i lokalizacji */
+  margin: 0; /* Brak marginesów */
+}
+
+.stats {
+  display: flex; /* Użycie flexbox do rozmieszczenia elementów */
+  justify-content: space-between; /* Rozmieszczenie elementów */
+  background-color: #f3f6f9; /* Kolor tła statystyk */
+  padding: 10px; /* Wewnętrzny odstęp statystyk */
+  border-top: 1px solid #e4e9f0; /* Górna krawędź */
+  border-radius: 0 0 10px 10px; /* Zaokrąglenie dolnych rogów */
+}
+
+.stats li {
+  display: flex; /* Użycie flexbox w liście statystyk */
+  flex-direction: column; /* Ułożenie elementów w kolumnie */
+  align-items: center; /* Wyśrodkowanie elementów w kolumnie */
+  width: 33%; /* Szerokość elementu */
+}
+
+.label {
+  font-size: 12px; /* Wielkość czcionki dla etykiet */
+  color: #888; /* Kolor tekstu dla etykiet */
+  margin-bottom: 5px; /* Dolny margines dla etykiet */
+}
+
+.quantity {
+  font-size: 18px; /* Wielkość czcionki dla ilości */
+  font-weight: 700; /* Pogrubienie tekstu dla ilości */
+  color: #1f1f1f; /* Kolor tekstu dla ilości */
+}
