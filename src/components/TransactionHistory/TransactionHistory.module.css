@@ -1,0 +1,37 @@
+.transactionHistory {
+  width: 66.67%; /* 2/3 szerokości ekranu */
+  margin: 20px auto; /* Wyśrodkowanie tabeli */
+  border-collapse: collapse;
+  font-size: 18px;
+  text-align: center; /* Wyśrodkowanie tekstu w tabeli */
+}
+
+.transactionHistory thead tr {
+  background-color: #00bcd4; /* Kolor nagłówka tabeli */
+  color: #ffffff;
+  text-align: center; /* Wyśrodkowanie tekstu w nagłówku */
+  font-weight: bold;
+}
+
+.transactionHistory th,
+.transactionHistory td {
+  padding: 12px 15px;
+  border: 1px solid #dddddd; /* Dodanie obramowania komórek */
+  text-align: center; /* Wyśrodkowanie tekstu w komórkach */
+}
+
+.transactionHistory tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.transactionHistory tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9; /* Kolor tła dla parzystych wierszy */
+}
+
+.transactionHistory tbody tr:nth-of-type(odd) {
+  background-color: #ffffff; /* Kolor tła dla nieparzystych wierszy */
+}
+
+.transactionHistory tbody tr:last-of-type {
+  border-bottom: 2px solid #00bcd4; /* Obramowanie ostatniego wiersza */
+}
