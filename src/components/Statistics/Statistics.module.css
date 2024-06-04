@@ -1,0 +1,46 @@
+.statistics {
+  text-align: center; /* Wyśrodkowanie tekstu */
+  background-color: #f3f6f9; /* Kolor tła sekcji */
+  padding: 20px; /* Wewnętrzny odstęp */
+  border-radius: 10px; /* Zaokrąglenie rogów */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cień sekcji */
+  margin: 20px auto; /* Wyśrodkowanie kontenera i dodanie górnego marginesu */
+  max-width: fit-content; /* Automatyczne dostosowanie szerokości */
+}
+
+.title {
+  font-size: 20px; /* Wielkość czcionki tytułu */
+  font-weight: 700; /* Pogrubienie tekstu */
+  margin-bottom: 20px; /* Dolny margines */
+  color: #333; /* Kolor tekstu */
+}
+
+.statList {
+  list-style: none; /* Usunięcie stylu listy */
+  padding: 0; /* Usunięcie odstępu wewnętrznego */
+  display: flex; /* Użycie flexbox do rozmieszczenia elementów */
+  justify-content: center; /* Wyśrodkowanie elementów */
+}
+
+.item {
+  flex: 0 0 100px; /* Stała szerokość elementu */
+  margin: 5px; /* Odstępy między elementami */
+  padding: 10px; /* Wewnętrzny odstęp elementu */
+  background-color: #fff; /* Domyślny kolor tła elementu */
+  border-radius: 5px; /* Zaokrąglenie rogów */
+  text-align: center; /* Wyśrodkowanie tekstu */
+  color: #fff; /* Kolor tekstu */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Cień elementu */
+  min-width: 100px; /* Minimalna szerokość elementu */
+}
+
+.label {
+  display: block; /* Wyświetlanie etykiety jako blok */
+  margin-bottom: 10px; /* Dolny margines */
+  font-size: 14px; /* Wielkość czcionki */
+}
+
+.percentage {
+  font-size: 20px; /* Wielkość czcionki procentów */
+  font-weight: 700; /* Pogrubienie tekstu */
+}
